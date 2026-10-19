@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czeanna Andrea L. Fabro | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Czeanna<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-btn" id="themeToggle">Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="hero section" id="home">
+            <div class="hero-text">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hello, I'm <span>Czeanna Andrea L. Fabro</span></h1>
+
+                <h2>Information Technology Student</h2>
+
+                <p>
+                    I am an IT student who enjoys learning about technology,
+                    designing websites, and creating useful digital projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="button">Hire Me</a>
+                </div>
+
+                <p class="welcome" id="welcomeMessage"></p>
+            </div>
+
+            <div class="photo-wrap">
+                <img
+                    src="7886b9c3-d0d0-484a-9229-a19d4986ab1b.jpeg"
+                    alt="Czeanna Andrea L. Fabro"
+                    class="profile-photo"
+                >
+                <span class="photo-decor"></span>
+            </div>
+        </section>
+
+        <!-- ABOUT ME -->
+        <section class="section" id="about">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About <span>Me</span></h2>
+
+            <div class="about-card">
+                <p>
+                    Hi! I'm <strong>Czeanna Andrea L. Fabro</strong>,
+                    an Information Technology student. I am interested
+                    in web design, computers, and learning new technical skills.
+                </p>
+
+                <div id="moreAbout" class="more-info hidden">
+                    <p>
+                        My goal is to improve my skills through practice
+                        and create websites that are simple, creative,
+                        and easy to use.
+                    </p>
+
+                    <p><strong>Education:</strong> Information Technology student</p>
+                    <p><strong>Interests:</strong> Web design, technology, creativity, and learning.</p>
+                </div>
+
+                <button class="button" id="readMoreBtn">Read More</button>
+            </div>
+
+            <div class="section-links">
+                <a href="#home">Back Home</a>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <p class="eyebrow">WHAT I AM LEARNING</p>
+            <h2 class="section-title">My <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Friendly</h3>
+                    <p>Warm and approachable in communication</p>
+                    <div class="skill-bar">
+                        <span style="width: 85%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Communication</h3>
+                    <p>Expressing ideas clearly and politely</p>
+                    <div class="skill-bar">
+                        <span style="width: 80%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Basic computer knowledge</h3>
+                    <p>Using digital tools with confidence</p>
+                    <div class="skill-bar">
+                        <span style="width: 75%"></span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Time management</h3>
+                    <p>Managing tasks and schedules effectively</p>
+                    <div class="skill-bar">
+                        <span style="width: 70%"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-links">
+                <a href="#home">Back Home</a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section" id="contact">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">Contact <span>Me</span></h2>
+
+            <div class="contact-card">
+                <p>Thank you for visiting my portfolio!</p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:czeannaandrealaysonfabro@gmail.com">
+                        czeannaandrealaysonfabro@gmail.com
+                    </a>
+                </p>
+
+                <p><strong>Phone:</strong> 09085118767</p>
+
+                <button class="button" id="contactBtn">Say Hello</button>
+            </div>
+
+            <div class="section-links">
+                <a href="#home">Back Home</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span>
+            Czeanna Andrea L. Fabro. All rights reserved.
+        </p>
+
+        <p id="dateTime" class="date-time"></p>
+    </footer>
+
+    <button id="backToTop" title="Back to top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
